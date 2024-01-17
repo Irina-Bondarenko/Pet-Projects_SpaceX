@@ -9,7 +9,7 @@ interface StyledMainBannerProps {
 }
 
 export const StyledMainBanner = styled.div<StyledMainBannerProps>`
-  ${({ theme, favorites }) => css`
+  ${({ favorites }) => css`
     height: ${favorites ? "inherit" : "100vh"};
     margin-top: -86px;
     position: relative;

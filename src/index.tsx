@@ -4,7 +4,7 @@ import "./index.css";
 import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RecoilRoot } from "recoil";
-import { GlobalStyles } from "./styled/global-styles";
+import { GlobalStyles } from "./styled";
 import { ApolloProvider } from "@apollo/client";
 import { client } from "./apollo/client";
 

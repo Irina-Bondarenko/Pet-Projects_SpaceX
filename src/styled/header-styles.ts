@@ -43,12 +43,10 @@ export const StyledList = styled.ul`
 `;
 
 export const StyledListItem = styled.li`
-  ${({ theme }) => css`
-    padding-left: 15px;
-    padding-right: 15px;
-    text-decoration: none;
-    color: ${colors.colorWhite};
-  `}
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: ${colors.colorWhite};
 `;
 
 export const StyledNavLink = styled(NavLink)`

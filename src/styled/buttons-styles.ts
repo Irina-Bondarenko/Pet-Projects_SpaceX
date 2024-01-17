@@ -72,3 +72,7 @@ export const StyledButtonToNextTitle = styled.span`
   -webkit-text-stroke-color: #080708;
   -webkit-text-stroke-width: 1px;
 `;
+
+export const StyledArrowSvg = styled.div`
+  ${({ theme }) => css``}
+`;

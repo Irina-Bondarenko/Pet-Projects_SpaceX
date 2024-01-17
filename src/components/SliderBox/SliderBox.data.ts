@@ -1,0 +1,6 @@
+const SLIDER_BOX_PRESET = {
+  INFO_CARD: "INFO_CARD",
+  PHOTO_CARD: "PHOTO_CARD",
+};
+
+export { SLIDER_BOX_PRESET };

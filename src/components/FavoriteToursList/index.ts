@@ -1,0 +1,1 @@
+export { FavoriteToursList } from "./FavoriteToursList";
